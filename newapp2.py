@@ -63,9 +63,9 @@ if page == "Overview":
     st.subheader("Key Performance Indicators (KPIs)")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Total Sales", f"SAR {filtered_df['Sales'].sum():,.2f}")
+        st.metric("Total Sales", f"${filtered_df['Sales'].sum():,.2f}")
     with col2:
-        st.metric("Total Profit", f"SAR {filtered_df['Profit'].sum():,.2f}")
+        st.metric("Total Profit", f"${filtered_df['Profit'].sum():,.2f}")
     with col3:
         st.metric("Average Discount", f"{filtered_df['Discount'].mean():.2%}")
 
