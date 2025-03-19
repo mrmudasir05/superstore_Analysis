@@ -357,4 +357,4 @@ elif page == "Send Notifications":
 
 # Footer
 st.markdown("---")
-st.markdown("Built with ❤️ using Streamlit and Plotly.")
+st.markdown("Mudassir Azhar Student of AI Islamia University Bahawalpur")
